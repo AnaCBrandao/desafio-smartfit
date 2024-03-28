@@ -1,0 +1,76 @@
+.form-group {
+    border: 2px solid rgb(207, 207, 207);
+    width: 65%;
+    margin: 1em auto;
+    border-radius: 0.5em;
+    padding: 1em;
+    color: var(--light-grey);
+}
+
+.form-group .form-icon{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.form-icon img {
+    width: 20px;
+    margin-right: 0.5em;
+}
+
+.option, h3 {
+    padding: 0.8em;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.option span, p {
+    float: right;
+}
+
+label {
+    margin-left: 0.5em;
+}
+
+h3 {
+    margin-top: 0.5em;
+    font-weight: 300;
+}
+
+.check {
+    padding: 0.8em;
+    margin-top: 1.5em;
+    color: var(--dark-grey);
+    font-weight: 500;
+}
+
+.check span {
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+button {
+    padding: 1em;
+    width: 30%;
+    min-width: 200px;
+    font-weight: 700;
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+
+.find {
+    background-color: var(--yellow);
+    margin-right: 1em;
+    border: none;
+}
+
+.clear{
+    border: 1px solid rgb(207, 207, 207);
+    background-color: transparent;
+}
+
