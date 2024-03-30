@@ -4,6 +4,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-bottom: 3em;
+   
 }
 
 .logo-container {
@@ -23,6 +24,7 @@ header {
 
 .text-container {
     width: 65%;
+    min-width: 300px;
 }
 
 .text-container h1 {

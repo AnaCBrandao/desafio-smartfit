@@ -5,6 +5,7 @@
     border-radius: 0.5em;
     padding: 1em;
     color: var(--light-grey);
+    min-width: 300px;
 }
 
 .form-group .form-icon{
@@ -61,16 +62,29 @@ button {
     font-weight: 700;
     border-radius: 0.5em;
     margin-top: 1em;
+    transition: 0.3s ease-in-out;
 }
 
 .find {
     background-color: var(--yellow);
     margin-right: 1em;
-    border: none;
+    border: none; 
+}
+
+.find:hover {
+    color: var(--yellow);
+    background-color: transparent;
+    margin-right: 1em;
+    border: 1px solid var(--dark-grey);
 }
 
 .clear{
     border: 1px solid rgb(207, 207, 207);
     background-color: transparent;
+}
+
+.clear:hover{
+    border: 1px solid var(--dark-grey);
+    background-color: rgb(207, 207, 207);
 }
 

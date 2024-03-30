@@ -1,0 +1,38 @@
+.legend-container {
+    background-color: rgb(238, 237, 237);
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 3em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    min-width: 300px;
+    flex-wrap: wrap;
+}
+
+.legend-group {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 25%;
+    min-width: 200px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.legend-group img{
+    width: 65px;
+}
+
+.legend-group h3{
+    width: 100%;
+}
+
+.legend-group div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+    max-width: 100px;
+}
