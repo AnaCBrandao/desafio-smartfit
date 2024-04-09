@@ -1,30 +1,30 @@
-<form action="" class="form-group">
+<form action="" class="form-group" [formGroup]="formGroup">
     <div class="form-icon"><img src="../../../assets/images/icon-hour.png" alt="">Horário</div>
     <div class="filter">
         <h3>Qual período quer treinar?</h3>
         <div class="option">
-            <input type="radio" name="time" value="morning">
+            <input type="radio" name="hour" value="morning" formControlName="hour">
             <label for="morning">Manhã</label>
             <span>06:00 às 12:00</span>
         </div>
         <div class="option">
-            <input type="radio" name="time" value="afternoon">
+            <input type="radio" name="hour" value="afternoon" formControlName="hour">
             <label for="afternoon">Tarde</label>
             <span>12:01 às 18:00</span>
         </div>
         <div class="option">
-            <input type="radio" name="time" value="night">
+            <input type="radio" name="hour" value="night" formControlName="hour">
             <label for="night">Noite</label>
             <span>18:01 às 23:00</span>
         </div>
         <div class="check">
-            <input type="checkbox" name="show-closed" >
-            <label for="show-closed">Exibir unidades fechadas</label>
-            <p>Resultados encontrados: <span>0</span></p>
+            <input type="checkbox" name="showClosed" formControlName="showClosed">
+            <label for="showClosed">Exibir unidades fechadas</label>
+            <p>Resultados encontrados: <span>{{results.length}}</span></p>
         </div>
         <div class="buttons">
-            <button class="find">ENCONTRAR UNIDADE</button>
-            <button class="clear">LIMPAR</button>
+            <button class="find" (click)="onSubmit()">ENCONTRAR UNIDADE</button>
+            <button class="clear" (click)="onClear()">LIMPAR</button>
         </div>
     </div>
 </form>
