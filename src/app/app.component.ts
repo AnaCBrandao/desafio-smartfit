@@ -24,3 +24,5 @@ import { FooterComponent } from './components/footer/footer.component';
 export class AppComponent {
   title = 'desafio-smartfit';
 }
+
+// 1:45:12
