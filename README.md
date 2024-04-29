@@ -1,6 +1,6 @@
  Desafio Frontend - Smart Fit
 
-![Smart Fit](./src/assets/images/logo.svg)
+<img src="./src/assets/images/preview.png">
 
 Este repositório contém a solução para o desafio de [Front-end da Smart Fit](https://github.com/bioritmo/front-end-code-challenge-smartsite/tree/master) desenvolvido com o framework Angular.
 
